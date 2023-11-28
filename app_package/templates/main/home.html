@@ -1,0 +1,21 @@
+{% extends "_layout.html" %}
+{% block main %}
+
+<h1>What Sticks 10</h1>
+
+<div class="navbar_list">
+    <ul>
+      <li><a href="{{ url_for('bp_main.home') }}"><i class="fas fa-home"></i>Home</a></li>
+      <li><a href="{{ url_for('bp_users.login') }}"><i class="fa-regular fa-address-card"></i>Login</a></li>
+      <li><a href="{{ url_for('bp_users.register') }}"><i class="fa-regular fa-address-card"></i>Register</a></li>
+      <li><a href="{{ url_for('bp_admin.admin_page') }}"><i class="fa-regular fa-address-card"></i>Admin Page</a></li>
+      
+
+
+
+    </ul>
+
+  </div>
+
+
+{% endblock %}
